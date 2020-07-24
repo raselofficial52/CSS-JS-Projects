@@ -1,0 +1,29 @@
+@media(max-width:768px){
+    .container h2{
+        font-size:4rem;
+    }
+    
+}
+@media(max-width:575px) {
+  .container h2 {
+    font-size: 3rem;
+  }
+  .modal_content{
+      width:350px;
+  }
+}
+@media(max-width:450px){
+    .container h2 {
+      font-size: 2rem;
+    }
+    .container span{
+        font-size:1.5rem;
+    }
+    .container a,
+    .modal_content a{
+        padding:5px 20px;
+    }
+    .modal_content {
+      width: 300px;
+    }
+}

@@ -33,10 +33,11 @@
     left:50%;
     transform:translate(-50%,-50%);
     text-align:center;
+   word-break: break-all;
 }
 .innerContent h1{
     font-size:7rem;
-    letter-spacing: 2rem;;
+    letter-spacing: 1rem;;
 }
 .innerContent a{
     color:#fff;

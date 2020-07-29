@@ -194,4 +194,16 @@ html {
   pointer-events: auto;
   bottom: 32px;
 }
+
+.preloader {
+  width: 100%;
+  height: 100vh;
+  background: #676D89 url("https://miro.medium.com/max/978/0*D1icAJvr19HzVBd6.gif") no-repeat center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99999999;
+}
 /*# sourceMappingURL=style.css.map */

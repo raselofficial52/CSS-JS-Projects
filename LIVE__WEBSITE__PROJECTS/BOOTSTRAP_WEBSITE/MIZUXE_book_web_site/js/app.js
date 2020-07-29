@@ -27,3 +27,8 @@ window.addEventListener("scroll",function(){
         toTop.classList.remove("toTopActive");
     }
 })
+// preloader
+const preloader = document.querySelector(".preloader");
+window.addEventListener("load",function(){
+    preloader.style.display="none";
+})

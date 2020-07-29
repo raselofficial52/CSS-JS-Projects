@@ -1,0 +1,44 @@
+#accordion{
+    background:whitesmoke;
+    .accordion_btn{
+        background-color: #fff;
+        width:100%;
+        padding:20px;
+        text-align:left;
+        border:none;
+        outline:none;
+        font-size:20px;
+        cursor:pointer;
+        transition:.3s linear;
+    }
+    .accordion_btn:hover{
+        background:#ccc;
+    }
+    .accordion_btn::after{
+        content:"\002B";
+        float:right;
+        font-size:30px;
+        font-weight:bold;
+        width:50px;
+        height:50px;
+       border:1px solid rgb(0, 0, 0);
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        border-radius:50%;
+        line-height:50px;
+
+    }
+    .active::after {
+        content:"\2212";
+    }
+     
+    .accordion_panel{
+        padding:0 18px;
+        border-right:2px solid #fff;
+        border-left:2px solid #fff;
+        max-height:0px;
+        overflow:hidden;
+        transition:.2s ease-in-out;
+    }
+}
